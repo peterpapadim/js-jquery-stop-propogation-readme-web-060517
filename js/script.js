@@ -7,6 +7,7 @@ $(document).ready(function(){
 
   $('.course .delete').on('click', function(){
     alert("about to delete");
+    event.stopPropagation()
   });
 
   //stop propagation
